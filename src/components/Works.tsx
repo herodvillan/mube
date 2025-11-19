@@ -135,8 +135,8 @@ export function Works() {
                       onClick={() => isCenter && setSelectedWork(work)}
                     >
                       <motion.div
-                        className={`bg-neutral-800 rounded-2xl overflow-hidden transition-all ${
-                          isCenter ? 'cursor-pointer shadow-2xl' : 'pointer-events-none'
+                        className={`bg-neutral-800 rounded-2xl overflow-hidden transition-all shadow-lg ${
+                          isCenter ? 'cursor-pointer' : 'pointer-events-none'
                         }`}
                         whileHover={isCenter ? { scale: 1.02, y: -10 } : {}}
                         whileTap={isCenter ? { scale: 0.98 } : {}}

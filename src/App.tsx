@@ -12,6 +12,9 @@ export default function App() {
       <About />
       <Works />
       <Contact />
+      <footer className="bg-black text-white text-center py-4">
+        <p>&copy; {new Date().getFullYear()} KAF Architects. All rights reserved.</p>
+      </footer>
     </div>
   );
 }
